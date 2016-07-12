@@ -16,4 +16,9 @@ angular
     this.getGroceries = function() {
       return data;
     }
+
+    this.addItem = function(item) {
+
+    }
+
   })

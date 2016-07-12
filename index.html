@@ -9,6 +9,17 @@
     <li>{{item.name}} | qty: {{item.qty}}</li>
   </ul>
 
+  <p>{{hello}}</p>
+
+  <!-- in the code below, the attribute ng-model is creating
+  a variable called 'add' -->
+  <input ng-model="newItem" type="text" name="name" value="">
+
+  <!-- in the code below, the ng-click is referencing the addGroceries function
+  in the MainCtrl.js file and taking in the 'add' variable created from the
+  ng-model attr from the input field above -->
+  <input ng-click="addGroceries(newItem)" type="button" name="name" value="click me">
+
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
   <script type="text/javascript" src="app.js"></script>
   <script type="text/javascript" src="MainCtrl.js"></script>

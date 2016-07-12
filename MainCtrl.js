@@ -7,8 +7,16 @@ angular
     $scope.groceries = groceryService.getGroceries();
     console.log($scope.groceries);
 
+    $scope.hello = "hellooo";
+
+    $scope.addGroceries = function(newItem) {
+
+    //groceryService.addItem();
+
+      console.log(newItem);
+    };
+
   });
 
-  
 
 //heavily connected to view (HTML) trough $scope.
