@@ -8,3 +8,7 @@ angular
     console.log($scope.groceries);
 
   });
+
+  
+
+//heavily connected to view (HTML) trough $scope.
