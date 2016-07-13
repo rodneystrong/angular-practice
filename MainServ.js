@@ -2,7 +2,7 @@
 //put your data/vars here too
 
 angular
-  .module('myApp')
+  .module('pApp')
   .service('fruitSrv', function() {
     var fruit = [
       {
@@ -14,4 +14,9 @@ angular
         qty: 2
       }
     ];
+
+    this.displayFruit = function() {
+      return fruit;
+    };
+
   });
