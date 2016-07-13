@@ -2,6 +2,6 @@
 
 angular
   .module('pApp')
-  .controller('displayCtrl', function($scope) {
+  .controller('displayCtrl', function($scope, fruitSrv) {
 
   })
